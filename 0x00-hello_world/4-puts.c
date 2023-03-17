@@ -3,12 +3,12 @@
 /**
  * main - Entry point
  * Description: A C program that prints with put function
- * Return : Alawys 0 (Success) or an other number
+ * return (0) if it's correct
 */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	return (0); 
 }
 
