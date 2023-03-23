@@ -2,8 +2,8 @@
 
 /**
  * _isdigit -  function that checks for a digit (0 through 9)
- * @c: 1 if c is a digit
- * Return: 0 otherwise
+ * @c: input
+ * Return: 1 if is digit 0 otherwise
 */
 
 int _isdigit(int c)
