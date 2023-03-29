@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * *_strncat -  that concatenates two strings.
+ * _strncat -  that concatenates two strings.
  * @dest: input
  * @src: input
  * @n: input
- * Description: it will use at most n bytes from src
- * src does not need to be null-terminated if it contains n or more bytes
  * Return: a pointer to the resulting string dest
 */
 
