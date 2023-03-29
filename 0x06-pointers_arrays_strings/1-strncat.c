@@ -4,7 +4,7 @@
  * _strncat -  that concatenates two strings.
  * @dest: input
  * @src: input
- * @n: input
+ * @n: most number of bytes from @src
  * Return: a pointer to the resulting string dest
 */
 
