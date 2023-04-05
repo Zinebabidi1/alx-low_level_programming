@@ -3,7 +3,7 @@
 /**
  * m - iterater past ast
  * @s2: input
- * Return: the p past st
+ * Return: the pointer past st
 */
 
 char *m(char *s2)
