@@ -44,7 +44,7 @@ int i(char *s1, char *s2)
 
 int wildcmp(char *s1, char *s2)
 {
-	int r = 0;
+	int r1 = 0;
 
 	if (!*s1 && *s2 == '*' && !*m(s2))
 		return (1);
@@ -62,9 +62,9 @@ int wildcmp(char *s1, char *s2)
 		if (!*s2)
 			return (1);
 		if (*s1 == *s2)
-			r += wildcmp(s1 + 1, s2 + 1);
-		r += i(s1, s2);
-		return (!!r);
+			r1 += wildcmp(s1 + 1, s2 + 1);
+		r1 += i(s1, s2);
+		return (!!r1);
 	}
 	return (0);
 }
