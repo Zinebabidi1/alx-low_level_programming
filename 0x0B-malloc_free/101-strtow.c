@@ -24,8 +24,6 @@ int wrdcnt(char *s)
 	return (n);
 }
 
-
-
 /**
  * strtow - splits a string into words
  * @str: input
@@ -43,7 +41,6 @@ char **strtow(char *str)
 	if (n == 1)
 		return (NULL);
 	w = (char **)malloc(n * sizeof(char *));
-
 	if (w == NULL)
 		return (NULL);
 	w[n - 1] = NULL;
