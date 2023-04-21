@@ -6,7 +6,8 @@
 
 /**
  * struct token - struct token
- * @token: tok
+ *
+ * @token: token formt
  * @f: associated
 */
 
