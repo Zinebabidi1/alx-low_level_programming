@@ -29,7 +29,7 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 }
 
 /**
- * print_listint_safe - prints a listint_t linked list
+ * print_listint_safe -  a function that prints a listint_t
  * @head: listint_t
  * Retrun: the number of nodes in the list
 */
